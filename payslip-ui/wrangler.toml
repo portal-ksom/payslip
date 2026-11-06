@@ -7,4 +7,4 @@ compatibility_flags = [ "nodejs_compat" ]
 [[d1_databases]]
 binding = "ksom_payslip_db"
 database_name = "ksom_payslip_db"
-database_id = "5e303825-c6f6-4c4b-9b7f-f51394312e93"
+database_id = "4cd53d08-a13f-42f9-a52d-14de75a15d9a"
