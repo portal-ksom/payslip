@@ -31,6 +31,6 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 89601c100f926df89b9069f1541aa36e
+          accountId: 8b31323b1bc0994c7de993ba6ee522f7
           command: pages deploy dist --project-name=ksom-payslip --branch=main
           workingDirectory: payslip-ui

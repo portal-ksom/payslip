@@ -23,7 +23,7 @@ export async function onRequestPost(context) {
 
     // 2. Build Raw MIME Message
     const rawMessage = buildMimeMessage({
-      from: "KSoM Office <office@ksom.res.in>",
+      from: "KSoM Portal <portal@ksom.res.in>",
       to,
       subject: subject || "Your Payslip",
       text: text || "Please find your payslip attached.",

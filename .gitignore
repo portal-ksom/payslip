@@ -1,2 +1,5 @@
 .git_bare_backup/
 payslip-ui/.dev.vars
+.wrangler/
+*.sqlite*
+

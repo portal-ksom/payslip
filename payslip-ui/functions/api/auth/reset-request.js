@@ -32,7 +32,7 @@ export async function onRequestPost(context) {
     if (GMAIL_CLIENT_ID && GMAIL_CLIENT_SECRET && GMAIL_REFRESH_TOKEN) {
       const accessToken = await getAccessToken(GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN);
       const rawMessage = buildMimeMessage({
-        from: "KSoM Office <office@ksom.res.in>",
+        from: "KSoM Portal <portal@ksom.res.in>",
         to: email,
         subject: "Password Reset Request - KSoM Portal",
         text: `You requested a password reset. Click the link below to set a new password:\n\n${resetLink}\n\nThis link expires in 1 hour.`

@@ -37,7 +37,7 @@ export async function sendBackupEmail(env, toEmail, sql) {
   const accessToken = await getAccessToken(GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN);
 
   const rawMessage = buildMimeMessage({
-    from: "KSoM Office <office@ksom.res.in>",
+    from: "KSoM Portal <portal@ksom.res.in>",
     to: toEmail,
     subject: `KSoM Payslip Backup - ${new Date().toLocaleDateString()}`,
     text: `Please find attached the SQL backup for the KSoM Payslip Portal generated on ${new Date().toLocaleString()}.`,
