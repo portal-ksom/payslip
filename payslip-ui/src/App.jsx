@@ -24,7 +24,7 @@ const Overview = ({ user }) => (
   <div>
     <h1>Overview</h1>
     <div className="card">
-      <p>Welcome to the KSoM Payslip generation portal.</p>
+      <p>Welcome to the KSoM Payslip generation portal v2.</p>
       {user && user.role === 'viewer' && (
         <p style={{ marginTop: '1rem', color: 'var(--color-text-secondary)' }}>
           You are signed in with read-only access. You can view and download your payslips from the <strong>Reports & Exports</strong> menu.
